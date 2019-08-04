@@ -2,9 +2,8 @@
 Finding duplicates in data frame across columns and replacing them with unique values using R
 
 Suppose you have a dataset with many variables, and you want to check:
-
-1.if there are any duplicated for each of the observation
-2.replace duplicates with random value from pool of existing values.
+* if there are any duplicated for each of the observation
+* replace duplicates with random value from pool of existing values.
 
 Core of the procedure is:
 ```r
