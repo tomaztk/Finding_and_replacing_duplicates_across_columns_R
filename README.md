@@ -6,7 +6,7 @@ Suppose you have a dataset with many variables, and you want to check:
 * replace duplicates with random value from pool of existing values.
 
 Core of the procedure is:
-```r
+```{r, echo=FALSE, warning=FALSE}
 for (row in 1:nrow(df)) {
       vec = df %>% slice(row) %>% unlist() %>% unname()
       
