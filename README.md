@@ -21,4 +21,4 @@ for (row in 1:nrow(df)) {
       }
     }
 ```
-More is available at the blog post: [Finding duplicates in data frame across columns and replacing them](http://tomaztsql.wordpress.com/5256)
+More is available at the blog post: [Finding duplicates in data frame across columns and replacing them](https://tomaztsql.wordpress.com/2019/08/05/finding-duplicates-in-data-frame-across-columns-and-replacing-them-with-unique-values-using-r/)
